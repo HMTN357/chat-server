@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: websocket-chat
+    env: python
+    buildCommand: pip install aiohttp
+    startCommand: python server.py
